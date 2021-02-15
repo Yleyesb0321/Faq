@@ -8,8 +8,8 @@ body{
 }
 
 section .seccion img .lineas{
-  width: 10px;
-  height: 10px;
+  width: 100%;
+  margin: 10px;
   position: relative;
   object-position: center
 }
@@ -22,18 +22,42 @@ section img .woman{
   height: auto;
 }
 article{
-  margin: 0 20px;
+  margin: 0 55px;
   height: 50%;
-  width: 50%;
+  width: 90%;
+  text-align: left;
+  display: block;
+  flex-wrap: wrap;
+  
+}
+#container {
+  width: 40%;
+  padding: 50px;
+}
+#container h1{
+  text-align: left;
+  font-size: 30px;
+  
+}
+#flecha{
+ 
+  object-position:bottom;
+  color: #f94144;
 }
 .seccion{
   background: #fff;
   margin: 100px auto;
   width: 85%;
   height: 80%;
+  border-radius: 30px;
 }
 .acordeon{
   width: 100%;
+}
+.content{
+  display: none;
+  overflow: auto;
+  padding: 15px;
 }
 .attribution { 
   font-size: 11px; 
