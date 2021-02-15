@@ -1,0 +1,44 @@
+@font-face{
+  font-family: "Kumb";
+  src: url("/fonts/Kumbh_Sans/KumbhSans-Regular.ttf");
+}
+body{
+  font-family: "Kumb";
+  background: hsl(273, 75%, 66%);
+}
+
+section .seccion img .lineas{
+  width: 10px;
+  height: 10px;
+  position: relative;
+  object-position: center
+}
+section img .caja{
+  width: 20%;
+  height: 20%;
+}
+section img .woman{
+  width: 50%;
+  height: auto;
+}
+article{
+  margin: 0 20px;
+  height: 50%;
+  width: 50%;
+}
+.seccion{
+  background: #fff;
+  margin: 100px auto;
+  width: 85%;
+  height: 80%;
+}
+.acordeon{
+  width: 100%;
+}
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
